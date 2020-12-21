@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="border_color">#3F3F3F</color>
+    <color name="promo_bg_color">#EEEEEE</color>
+    <color name="colorBalance">#414594</color>
+    <color name="colorBalanceMenu">#565ABE</color>
+    <color name="colorPayment">#52B1DD</color>
+    <color name="colorFoodAndFMCG">#FF1F1F</color>
+    <color name="colorTransportAndLogistic">#50B444</color>
+    <color name="colorNewsAndEntertaiment">#E70CDE</color>
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#2c62ba"
+        android:paddingBottom="15dp"
+        >
+        <LinearLayout
+            android:id="@+id/ly1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="12dp"
+            android:paddingRight="1dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="27dp"
+                android:src="@drawable/leftarrow"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Isi Saldo"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/ly1"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/topup"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Instan"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:textColor="#2c62ba"
+                    android:textStyle="bold"
+                    />
+
+            </RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="Metode lain"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/rl1"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ISI NOMINAL"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#cbccd0"
+            />
+        <EditText
+            android:id="@+id/nominal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Rp0"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#cbccd0"
+            android:paddingBottom="20dp"
+            android:inputType="number"
+            />
+        <EditText
+            android:id="@+id/temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/lanjut"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Lanjut"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+
+</RelativeLayout>
